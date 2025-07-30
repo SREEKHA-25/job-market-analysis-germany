@@ -1,43 +1,76 @@
-Job Market Analysis – Germany & Europe (2024)
-This project explores European job trends using real-world data on thousands of job postings.
+# 📊 Job Market Analysis – Germany
 
--- What I Did
-Cleaned and analyzed job data using Python (Pandas, Matplotlib)
+This project explores the current job market in Germany using real job posting data. The goal is to analyze job trends, top hiring countries and companies, popular job titles, and work formats using **Python**, **SQL**, and **Excel**.
 
-Filtered for jobs located in Europe (Germany, France, etc.)
+## 📁 Project Structure
 
-Extracted country from job location fields
+- `python_analysis.ipynb` – Python-based data cleaning and visualization
+- `sql_analysis.ipynb` – SQL-based queries for job trend insights
+- `job_data.db` – SQLite database created from the dataset
+- `README.md` – Project overview and insights
+- `charts/` – Folder containing exported visualizations (optional)
 
-Analyzed top job titles, companies, and in-demand skills
+## 🔍 Data Overview
 
-Created bar charts for visualization
+- **Source**: Scraped job posting dataset
+- **Fields**: Job title, location, category, seniority, salary, contract type, company, etc.
+- **Time Period**: Last seen dates vary between April 2024
 
-📌 Key Insights
-🇩🇪 Germany had the highest number of job listings, followed by France and Poland
+🔧 Tools Used
 
-🏢 Top employers included zf.com, bosch.com, and heraeus.com
+- Python (Pandas, Matplotlib, Seaborn)
+- SQLite (via `sqlite3`)
+- Jupyter Notebook
+- Excel (Pivot tables and charts)
+- Git & GitHub
 
-💼 Most common job titles included Intern, Working Student, and Developer
+## 📈 Key Insights
 
-📈 In-demand skills:
+### A. Top Countries by Job Listings
+Germany, France, and Spain dominate the listings across Europe.
 
-Excel (600+ mentions)
+### B. Most Common Job Titles
+Internships and entry-level roles like:
+- Working Student
+- Intern (m/f/d)
+- Sales Analyst
+- Software Engineer
 
-Remote roles (200+ listings)
+### C. Work Type Trends
+- High number of **remote** and **internship** roles
+- Most jobs are **closed** (status field)
 
-Python, Power BI, SQL, and Tableau also appeared frequently
+### D. Top Companies Hiring
+Companies like **Bosch**, **ZF**, and **Heraeus** had multiple listings.
 
-📁 Files Included
-python_analysis.ipynb – full code and charts
+## 📦 How to Use
 
-sql_analysis.ipynb – to be added
+1. Clone the repository
+2. Open `python_analysis.ipynb` or `sql_analysis.ipynb` in Jupyter
+3. Run the cells and explore insights
+4. (Optional) Load `job_data.db` into any SQL client
 
-README.md – this file
+## ✅ Project Status
 
-/data/ – contains job postings CSV
+- [x] Data cleaned and encoded
+- [x] Exploratory analysis using Python
+- [x] SQLite database created
+- [x] SQL queries executed and visualized
+- [x] Project uploaded to GitHub
 
-/charts/ – saved .png plots of visualizations
+## 📌 Next Steps
 
-⚠️ Note: The SQLite database file `job_data.db` is not included due to file size. 
-To recreate it, run the SQL notebook `sql_analysis.ipynb`.
+- Add more time-based trends (e.g., jobs by month)
+- Deep dive into salaries (if available)
+- Connect to a live job API for real-time tracking
+
+## 👤 Author
+
+**Sreekha**  
+[GitHub Profile](https://github.com/SREEKHA-25)  
+LinkedIn: *www.linkedin.com/in/sreekham2000*
+
+## 📝 License
+
+This project is for educational purposes. Feel free to fork and build upon it.
 
