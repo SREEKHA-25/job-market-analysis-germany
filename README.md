@@ -68,7 +68,7 @@ Companies like **Bosch**, **ZF**, and **Heraeus** had multiple listings.
 
 **Sreekha**  
 [GitHub Profile](https://github.com/SREEKHA-25)  
-LinkedIn: *www.linkedin.com/in/sreekham2000*
+LinkedIn:   www.linkedin.com/in/sreekham2000
 
 ## 📝 License
 
