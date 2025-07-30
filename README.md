@@ -8,7 +8,7 @@ This project explores the current job market in Germany using real job posting d
 - `sql_analysis.ipynb` – SQL-based queries for job trend insights
 - `job_data.db` – SQLite database created from the dataset
 - `README.md` – Project overview and insights
-- `charts/` – Folder containing exported visualizations (optional)
+- `charts/` – Folder containing exported visualizations 
 
 ## 🔍 Data Overview
 
@@ -48,7 +48,8 @@ Companies like **Bosch**, **ZF**, and **Heraeus** had multiple listings.
 1. Clone the repository
 2. Open `python_analysis.ipynb` or `sql_analysis.ipynb` in Jupyter
 3. Run the cells and explore insights
-4. (Optional) Load `job_data.db` into any SQL client
+4. The SQLite database file `job_data.db` was used for internal analysis and is not included in this repository.
+   However, you can recreate it easily using the provided SQL or Python code.
 
 ## ✅ Project Status
 
