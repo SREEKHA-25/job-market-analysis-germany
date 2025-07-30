@@ -38,3 +38,6 @@ README.md – this file
 
 /charts/ – saved .png plots of visualizations
 
+⚠️ Note: The SQLite database file `job_data.db` is not included due to file size. 
+To recreate it, run the SQL notebook `sql_analysis.ipynb`.
+
